@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #title{
+            text-align: center;
+            font-size: 120px;
+        }
+    </style>
+</head>
+<body onload="autoload()">
+    <div id="title">
+        random nogenerator
+    </div>
+
+    <script>
+        "use strict"
+        let count, tmr;
+        function autoload(){
+            count=0;
+           tmr= setInterval("process()", 2000);
+           
+        }
+
+        function process() {
+            //const no= parseInt(Math.random()*200);
+            const dt=new Date();
+            document.getElementById("title").innerHTML=dt.toLocaleTimeString();
+            count=count+1;
+            if (count===3) {
+                clearInterval(tmr);
+            
+                console.log("no stopped here");
+                
+            }
+            
+        }
+    </script>
+</body>
+</html>

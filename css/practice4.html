@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head {
+            text-align: center;
+            font-size: 50px; 
+        }
+        button{width: 200px; height: 50px; background-color: blueviolet; color: azure;}
+        #btn{display: flex; justify-content: center; margin-top: 350px; gap: 40px;}
+        #new {position: absolute; }
+    </style>
+</head>
+
+<body>
+    <div id="head">
+        Are you satisfied with your salary?
+
+    </div>
+    <div id="btn">
+        <div id="btn-1">
+            <button onclick="yes()">yes</button>
+
+        </div>
+        <div id="btn-2">
+            <button id="new" onmouseover="changelocation()">No</button>
+        </div>
+    </div>
+
+    <script>
+        "use strict"
+        
+        function yes(){
+            alert("I am satisfied with my salary");
+        }
+
+        function changelocation(){
+             const no= (Math.random()*700);
+            document.getElementById("new").style.left=no+"px";
+            document.getElementById("new").style.top=no+"px";
+        
+
+
+        }
+    </script>
+
+</body>
+
+</html>

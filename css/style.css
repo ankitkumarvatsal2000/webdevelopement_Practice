@@ -1,0 +1,658 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.para {
+    margin-top: 470px;
+}
+
+.position {
+    position: relative;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    /* border: 5px solid wheat; */
+    margin-top: 20px;
+    box-shadow: 18px 0px 36px #ccc;
+    border-radius: 17px;
+}
+
+.col-1 img {
+    width: 482px;
+    height: 680px;
+    border-radius: 17px;
+}
+
+.col-2 img {
+    width: 80px;
+}
+
+.col-1,
+.col-2 {
+    flex: 1
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/* .p1{margin-left: 125px; font-size: 25px;} */
+/* h1{margin-left: 80px;} */
+.text {
+    text-align: center;
+    line-height: 46px;
+    font-family: cursive;
+}
+.text p{
+    font-size: 20px;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .p2{margin-top: 20px; font-size: 20px;} */
+.input input {
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 9px #ccc;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+}
+
+.btn button {
+    width: 380px;
+    height: 50px;
+    border-radius: 24px;
+    background: #5a4bda;
+    box-shadow: 0px 7px 11px #5315cf38;
+    font-family: sans-serif;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.logo img {
+    margin-top: 20px;
+}
+
+/* otp css */
+.row1 {
+    display: flex;
+}
+
+.col-3 img {
+    width: 482px;
+    height: 680px;
+    border-radius: 17px;
+}
+
+.pwlogo img {
+    width: 80px;
+}
+
+.allcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.col-3,
+.col-4 {
+    flex: 1;
+}
+
+.otpcontainer {
+    width: 1000px;
+    margin: auto;
+    /* border: 5px solid wheat; */
+    margin-top: 20px;
+    box-shadow: 18px 0px 36px #ccc;
+    border-radius: 17px;
+}
+
+.col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 {
+    text-align: center;
+    line-height: 36px;
+    font-size: 17px;
+}
+
+.inpbox input {
+    width: 40px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 1px -3px 4px #ccc;
+}
+
+.cbtn1 button {
+    height: 50px;
+    width: 346px;
+    border-radius: 28px;
+    box-shadow: 0px 4px 1px #ccc;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.resendbtn button {
+    width: 170px;
+    height: 54px;
+    border-radius: 26px;
+    background: #5a4bda;
+    font-size: 14px;
+}
+
+.callbtn {
+    width: 212px;
+    border-radius: 10px;
+}
+
+.whatsappbtn {
+    width: 304px;
+    border-radius: 26px;
+    color: black;
+    height: 53px;
+    font-family: cursive;
+    font-size: 18px;
+    box-shadow: 0px 9px 11px #ccc;
+}
+
+/* home page css */
+.main {
+    display: flex;
+}
+
+.aside {
+    width: 20%;
+    border-right: 5px solid whitesmoke;
+    position: fixed;
+}
+
+.hum-ele {
+    height: 90vh;
+    overflow: auto;
+}
+
+.header {
+    overflow-y: auto;
+    width: 80%;
+    margin-left: 307px;
+}
+
+.aside .navlogo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.profileimage {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 10px;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    background: #fff;
+    left: 229px;
+    top: -10px;
+    height: 60px;
+}
+
+.maincontent {
+    margin-top: 60px;
+}
+
+.mcontainer {
+    width: 1000px;
+    margin: auto;
+}
+
+.backgroundimage {
+    background-image: url(/images/center-img.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 940px;
+    margin: auto;
+    border-radius: 17px;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0px 30px;
+    font-size: 17px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    padding: 5px 39px;
+}
+
+.pw-centers {
+    width: 880px;
+    margin: auto;
+    border: 5px solid whitesmoke;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    gap: 40px;
+    border-radius: 17px;
+    position: absolute;
+    left: 59px;
+    top: 237px;
+}
+
+.kota img {
+    width: 50px;
+}
+
+.centers-1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.centers-2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.center-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+}
+
+.center-text span {
+    font-size: 19px;
+}
+
+.kota {
+    /* border: 4px solid whitesmoke; */
+    width: 185px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 38px #ccc;
+    border-radius: 9px;
+}
+
+.none {
+    /* border: 4px solid whitesmoke; */
+    width: 185px;
+    text-align: center;
+    padding-top: 27px;
+    text-decoration: none;
+    box-shadow: 0px 0px 38px #ccc;
+    border-radius: 9px;
+}
+
+.none a {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.kota span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.profileimage a {
+    margin-right: 93px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.profileimage h4 {
+    margin-right: 29px;
+}
+
+.profileimage img {
+    margin-right: 20px;
+}
+
+.navlogo h3 {
+    margin-left: 20px;
+}
+
+.navlogo img {
+    margin-left: 20px;
+}
+
+.navlogo {
+    margin-top: 10px;
+}
+
+.para p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.course-1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.course-2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.course-name {
+    /* border: 2px solid white; */
+    width: 176px;
+    height: 150px;
+    background-color: seashell;
+    border-radius: 10px;
+    box-shadow: 0px 0px 21px #ccc;
+    background-color: rgba(255, 182, 193, 0.33);
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    padding-top: 40px;
+}
+
+.course-1 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 19px;
+}
+
+.course-2 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 19px;
+}
+
+.pwtext h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.pwtext .exe {
+    font-size: 20px;
+}
+
+.course {
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+}
+
+.pwtext {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footer-img {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-img img {
+    width: 544px;
+}
+
+
+/* Study page css */
+*
+.half{max-width: 1000px;
+    margin: auto;
+}
+.aside-header{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 2px solid wheat;
+}
+.aside-header img{
+    width: 50px;
+    padding-left: -24px;
+    margin-left: 34px;
+}
+.aside-ele{
+    overflow: auto;
+    height: 90vh;
+}
+.head-all {
+    height: 62px;
+    box-shadow: 0px 0px 26px #ccc;
+}
+.header-ele img{
+    width: 50px;
+    height: 45px;
+    margin-right: 12px;
+}
+.main-container{
+    display: flex;
+}
+.aside-bar{
+    width: 20%;
+    border-right: 2px solid wheat;
+    position: fixed;
+}
+
+.main-header{
+    width: 80%;
+    
+    gap: 791px;
+    
+    margin-left: 20%;
+}
+.header-ele{
+    display: flex;
+    gap: 21px;
+    /* margin-left: 883px; */
+    justify-content: end;
+    align-items: center;
+    /* margin-top: -51px; */
+    /* height: 29px; */
+    /* border-bottom: 2px solid wheat; */
+}
+.cohort{
+    padding-right: 65%;
+}
+.class-heading{
+    font-size: 18px;
+    margin-top: 24px;
+}
+.boxes{
+    display: flex;
+    gap: 18px;
+    margin-top: 10px;
+}
+.batch-day-name{
+    width: 157px;
+    height: 35px;
+    /* border: 2px solid wheat; */
+    border-radius: 13px;
+    box-shadow: 0px 0px 16px #ccc;
+    padding-top: 7px;
+    padding-left: 30px;
+}
+
+.live-class img{
+    width: 247px;
+}
+.classes{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.live-class {
+    /* border: 2px solid wheat; */
+    padding: 10px;
+    box-shadow: 0px 0px 6px #ccc;
+    border-radius: 9px;
+}
+.live-class h4{
+    padding-top: 15px;
+}
+.access{
+    margin-top: 45px;
+    line-height: 32px;
+}
+.pw-section{
+    display: flex;
+    gap: 20px;
+    height: 170px;
+    margin-top: 30px;
+}
+.my-batches{
+    /* border: 2px solid wheat; */
+    flex : 1;
+    padding-left: 19px;
+    padding-top: 30px;
+    background-color: cornsilk;
+    box-shadow: 0px 0px 60px #ccc;
+    border-radius: 18px;
+}
+.recomend-batch{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.re-bathes-text {
+    padding-top: 38px;
+}
+.batch-card img {
+    width: 254px;
+    margin-top: 41px;
+}
+.batch-card h2{
+    font-size: 20px;
+}
+.batch-card{
+    flex: 1;
+    /* border: 2px solid wheat; */
+    padding: 10px;
+    
+    box-shadow: 0px 0px 68px #ccc;
+    border-radius: 18px;
+    
+}
+.re-batches-txt{
+    margin-top: 50px;
+   }
+   .re-bathes-text {
+    line-height: 32px;
+   }
+   .re-bathes-text p{
+    font-size: 16px;
+   }
+
+.batch-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.batch-card p{
+    line-height: 28px;
+}
+button{
+    padding: 7px 46px;
+    color: #fff;
+    border: none;
+    border-radius: 11px;
+    
+}
+.explore button{
+    background: rgba(90, 75, 218, .1);
+    color: #5a4bda;
+    font-weight: bold;
+}
+.buy button{
+    background:#5a4bda; 
+    color: #fff;
+}
+.view-all {
+    text-align: center;
+    margin-top: 24px;
+}
+.view-all a{
+    text-decoration: none;
+}
+.alakh-images{
+    display: flex;
+    gap: 22px;
+    overflow: auto;
+}
+.image-all img{
+    width: 240px;
+}
+.micro-learning{
+    margin: 20px;
+    line-height: 39px;
+}
+.img-row-1 img{
+    width: 322px;
+}
+
+.img-row-2 img{
+    width: 322px;
+}
+.all-img {
+    display: flex;
+    gap: 18px;
+}
+.bottom-up-txt {
+    line-height: 45px;
+    padding-top: 95px;
+}
+.footer-txt {
+    padding-top: 80px;
+    font-size: 28px;
+}
+.footer-txt p{
+    padding-top: 20px;
+    font-size: 20px;
+    height: 150px;
+}
+
+
+
+
+

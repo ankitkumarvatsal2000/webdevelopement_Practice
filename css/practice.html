@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #msg{
+            text-align: center;
+            font-size: 120px;
+        }
+    </style>
+</head>
+<body onload="code()">
+    <div id="msg">
+        see random number
+    </div>
+    <script>
+        "use strict"
+
+        function code(){
+            setTimeout("process()", 2000);
+        }
+
+        function process(){
+            const no= parseInt(Math.random()*500);
+            document.getElementById("msg").innerHTML=no;
+        }
+    </script>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let student ={
+            name:"ankit",
+            lastName:"rajput",
+            age:1998,
+        }
+
+        let teacher={
+            name:"sandeep",
+            lastName:"verma",
+            age:1980,
+        }
+
+      
+
+        let users={
+            getName:function(){
+                return this.name+ " "+ this.lastName;
+            },
+            getAge: function(){
+                let age = new Date().getFullYear()-this.age;
+                return age;
+            }    
+         }
+         student.__proto__=users;
+       teacher.__proto__=users;
+
+
+         console.log(student.getName());
+         console.log(student.getAge());
+         console.log(teacher.getName());
+         console.log(teacher.getAge());
+    </script>
+</body>
+</html>

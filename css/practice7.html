@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #text {
+            color: azure;
+            background-color: blueviolet;
+            text-align: center;
+            width: 150px;
+            height: 30px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+
+<body onload="code()">
+    <div id="text">
+        Ankit Rajput
+    </div>
+    <script>
+        "use strict";
+        let x,y,z;
+        function code(){
+        x=0;
+        y=0;
+         setInterval("process()", 100);
+        }
+        function process(){
+            if(x>=0 && x<=1380 ){
+                document.getElementById("text").style.left=x+"px";
+                x=x+10;
+                
+            }
+            else if(y>=0 && y<=770){
+                document.getElementById("text").style.top=y+"px";
+                y=y+10;
+            }
+            else if(x<=1380 && x>=0 && y==770){
+                
+                document.getElementById("text").style.left=x+"px";
+                console.log("hello");
+                x=x-10;
+            }
+            
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array traversing</title>
+</head>
+<body>
+
+    <input type="text" id="element">
+    <button onclick="getElement()">get value</button>
+     <div class="box"> value is :-</div>
+    <script>
+
+   const ankit =[1,4,7,9,44,77,88,99,456,789,2342];
+    
+   for(let i=0; i<=ankit.length-1; i++){
+    console.log(ankit[i])
+   }
+
+//    let x=50;
+//    console.log(ankit[x])
+
+   const getElement =()=>{
+    const index = document.getElementById("element").value;
+     document.querySelector(".box").innerHTML= ankit[index]
+     
+   }
+  
+    
+   
+    </script>
+    
+</body>
+</html>
